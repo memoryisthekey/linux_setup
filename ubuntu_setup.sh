@@ -65,12 +65,11 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 sudo groupadd docker
 sudo usermod -aG docker $USER
 
-
+############# Set my shortcuts ##############
+source ./bindings.sh
 
 ############# Change lockscreen ##############
 ############# Change background ##############
 
-############# Set my shortcuts ##############
-source ./bindings.sh
 
 ############# Install chromium ##############
