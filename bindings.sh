@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #https://blog.programster.org/using-the-cli-to-set-custom-keyboard-shortcuts
+
 BEGINNING="gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings"
 
 KEY_PATH="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings"
