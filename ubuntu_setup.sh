@@ -27,6 +27,9 @@ source ./docker.sh
 ############# Set my shortcuts ##############
 source ./bindings.sh
 
+############# Set Theme to dark mode ############## https://fostips.com/light-dark-command-ubuntu-22-04/
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
 ############# Change lockscreen ##############
 ############# Change background ##############
 
